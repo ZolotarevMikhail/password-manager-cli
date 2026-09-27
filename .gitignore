@@ -1,0 +1,4 @@
+# Секреты не должны попадать в git
+.key
+passwords.db
+__pycache__/
