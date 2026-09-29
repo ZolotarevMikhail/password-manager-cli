@@ -1,0 +1,4 @@
+#!/bin/bash
+# Запускает окно менеджера паролей без терминала
+cd "$(dirname "$0")/../../.."
+exec /Library/Frameworks/Python.framework/Versions/3.14/bin/python3 gui.py
